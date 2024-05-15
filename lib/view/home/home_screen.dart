@@ -122,7 +122,7 @@ class HomeScreen extends StatelessWidget {
                       leading: const Icon(
                         Icons.public,
                         color: Color.fromARGB(255, 0, 0, 0),
-                        size: 28,
+                        size: 27,
                       ),
                       title: Text(
                         continentName,
