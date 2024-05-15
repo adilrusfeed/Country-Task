@@ -14,10 +14,10 @@ To build and run this project:
 5. run `flutter pub get` to get all dependencies.
 6. run `flutter run` to build the app.
 
+<<<<<<< HEAD
 (Please note that a Mac with XCode is required to build for iOS)
+=======
+>>>>>>> a729c43b1d065be0a8f0aedc3ca0f13203b449bb
 
-
-
-"assets\app_icon.png"
 
 
