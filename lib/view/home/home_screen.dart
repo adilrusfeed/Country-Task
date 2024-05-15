@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
                   final continentName = continentsMap.keys.elementAt(index);
                   final countriesInContinent = continentsMap[continentName]!;
                   return Card(
-                    elevation: 8,
+                    elevation: 4,
                     shadowColor: const Color.fromARGB(255, 255, 255, 255),
                     margin: const EdgeInsets.symmetric(vertical: 10),
                     shape: RoundedRectangleBorder(
