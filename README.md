@@ -1,4 +1,4 @@
-# World Countries | countries_info_app
+# Country Details App
 
 A  Flutter project  displays information about countries from  API. 
 The application categorizes countries into continents and displays their flags and other information.
