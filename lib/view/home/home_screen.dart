@@ -45,6 +45,8 @@ class HomeScreen extends StatelessWidget {
           ],
           iconTheme: const IconThemeData(color: Colors.white),
         ),
+
+        //---------------drawer--------------------------//
         drawer: Drawer(
           backgroundColor: Colors.white, // Change background color to white
           elevation: 50,
@@ -72,6 +74,7 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+        //----------refreh button-----------------------------//
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             final countriesProvider =

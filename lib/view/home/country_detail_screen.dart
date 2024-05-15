@@ -63,6 +63,7 @@ class CountryDetailsScreen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          //----------country name--------------------//
                           Text(
                             country.name!.common!,
                             style: theme.textTheme.titleLarge!.copyWith(
@@ -71,36 +72,44 @@ class CountryDetailsScreen extends StatelessWidget {
                             ),
                           ),
                           const Divider(),
+                          //----------country capital--------------------//
+
                           Text(
                             'Capital: ${country.capital != null && country.capital!.isNotEmpty ? country.capital!.join(", ") : "NA"}',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country population--------------------//
                           Text(
                             'Population: ${country.population?.toString() ?? "NA"}',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country region--------------------//
                           Text(
                             'Region: ${country.region ?? "NA"}',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country sub-region--------------------//
                           Text(
                             'Sub-Region: ${country.subregion ?? "NA"}',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country area--------------------//
                           Text(
                             'Area: ${country.area?.toString() ?? "NA"} sq. km.',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country borders--------------------//
                           Text(
                             'Borders: ${country.borders != null && country.borders!.isNotEmpty ? country.borders!.join(", ") : "NA"}',
                             style: theme.textTheme.bodyLarge,
                           ),
                           const Divider(),
+                          //----------country timezones--------------------//
                           Text(
                             'Timezones: ${country.timezones?.join(", ") ?? "NA"}',
                             style: theme.textTheme.bodyLarge,
@@ -109,6 +118,8 @@ class CountryDetailsScreen extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  //----------country cost of arms--------------------//
                   const SizedBox(height: 10),
                   if (country.coatOfArms != null &&
                       country.coatOfArms!.png != null) ...[
